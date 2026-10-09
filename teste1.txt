@@ -1,0 +1,9 @@
+Esse texto não aparecerá na branch - segundo_branch
+
+public class Pessoa {
+
+    public String nome;
+    public int idade;
+    public Double peso;
+
+}

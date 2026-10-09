@@ -1,1 +1,0 @@
-Essa texto não aparecerá na branch primeiro_branch

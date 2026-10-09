@@ -4,4 +4,6 @@ public class Pessoa {
     public int idade;
     public Double peso;
 
+    public Pessoa() {}
+
 }

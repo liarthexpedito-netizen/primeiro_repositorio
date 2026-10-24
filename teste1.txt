@@ -1,8 +1,2 @@
-<<<<<<< HEAD
 Fazendo a União de Branchs
 - main
-=======
-
-
-- primeiro_branch
->>>>>>> primeiro_branch

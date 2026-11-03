@@ -5,8 +5,11 @@ public class Programa {
 
         String x  = "Hello, ";
         String y  = "World!";
+        String a = "Aprendo";
+        String b = "Java";
 
         System.out.print(x + y);
+        System.out.print(a + b);
 
     }
 }

@@ -1,4 +1,4 @@
-package repositorio_dois.java;
+package repositorio.java;
 
 import java.util.Scanner;
 import java.util.Locale;

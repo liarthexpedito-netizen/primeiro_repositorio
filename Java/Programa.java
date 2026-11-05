@@ -1,4 +1,4 @@
-package repositorio.java;
+package repositorio_dois.java;
 
 public class Programa {
     public static void main(String[] args) {

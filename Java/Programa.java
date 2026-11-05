@@ -11,13 +11,17 @@ public class Programa {
 
         System.out.print("Digite seu nome: ");
         String nome = sc.nextLine();
+        System.out.print("Digite sua idade: ");
+        int idade = sc.nextInt();
         System.out.print("Digite sua altura: ");
         double altura = sc.nextDouble();
 
-        if (altura >= 1.70) {
-            System.out.println(nome + " tem altura para servir ao exército");
-        } else {
-            System.out.println("Você é muito baixo para servi ao exército");
+        if (altura >= 1.70 && idade >= 18) {
+            System.out.println("Com " + idade + " de idade e medindo " + altura + " de altura, " + nome + " está apto a servir ao exército");
+        } else if (altura < 1.60) {
+            System.out.println("Você não possui estatura mínima");
+        } else if (idade < 18) {
+            System.out.println("Você ainda não completou 18 anos");
         }
 
         sc.close();

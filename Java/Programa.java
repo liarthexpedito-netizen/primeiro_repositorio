@@ -5,7 +5,7 @@ public class Programa {
 
         String x  = "Hello, ";
         String y  = "World!";
-        String a = "Aprendo";
+        String a = "Aprendendo";
         String b = "Java";
 
         System.out.print(x + y);
